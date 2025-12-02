@@ -1,0 +1,976 @@
+body {
+    background-color: #F5F5F5;
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+    overflow: hidden;
+}
+
+.loading {
+    display: flex;
+}
+
+.colorBox {
+    left: 0;
+}
+
+.colorBox span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.divicon {
+    cursor: pointer;
+}
+
+nav {
+    background-color: transparent;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.active {
+    border-bottom: 5px solid white;
+    width: fit-content;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid white;
+    width: fit-content;
+}
+
+.navbar-toggler {
+    color: #404040 !important;
+    border: 0.5px solid #404040;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(97, 96, 96) !important;
+    color: #9f9595 !important;
+    border-radius: 10px;
+}
+
+.backToTop {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    z-index: 9999;
+    display: none;
+}
+
+.homeSection {
+    background-image: url("../images/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.changer1 {
+    color: transparent;
+    font-size: 40px;
+}
+
+.changer1::after {
+    content: "|";
+    color: white;
+    font-size: 40px;
+    animation: typingChanger 20s infinite alternate;
+}
+
+@keyframes typingChanger {
+    0% {
+        content: "C|";
+    }
+
+    1% {
+        content: "Ce|";
+    }
+
+    1.5% {
+        content: "Ceo|";
+    }
+
+    2% {
+        content: "Ceo |";
+    }
+
+    2.5% {
+        content: "Ceo D|";
+    }
+
+    3% {
+        content: "Ceo De|";
+    }
+
+    3.5% {
+        content: "Ceo Dev|";
+    }
+
+    4% {
+        content: "Ceo DevF|";
+    }
+
+    4.5% {
+        content: "Ceo DevFo|";
+    }
+
+    5% {
+        content: "Ceo DevFoi|";
+    }
+
+    5.5% {
+        content: "Ceo DevFoio|";
+    }
+
+    6% {
+        content: "Ceo DevFoio|";
+    }
+
+    6.5% {
+        content: "Ceo DevFoio|";
+    }
+
+    7% {
+        content: "Ceo DevFoio|";
+    }
+
+    9% {
+        content: "Ceo DevFoi|";
+    }
+
+    9.5% {
+        content: "Ceo DevFo|";
+    }
+
+    10% {
+        content: "Ceo DevF|";
+    }
+
+    10.5% {
+        content: "Ceo Dev|";
+    }
+
+    11% {
+        content: "Ceo De|";
+    }
+
+    11.5% {
+        content: "Ceo D|";
+    }
+
+    12% {
+        content: "Ceo |";
+    }
+
+    12.5% {
+        content: "Ceo|";
+    }
+
+    13% {
+        content: "Ce|";
+    }
+
+    13.5% {
+        content: "C|";
+    }
+
+    14% {
+        content: "|";
+    }
+
+    14.5% {
+        content: "|";
+    }
+
+    15% {
+        content: "W|";
+    }
+
+    15.5% {
+        content: "We|";
+    }
+
+    16% {
+        content: "Web|";
+    }
+
+    16.5% {
+        content: "Web |";
+    }
+
+    17% {
+        content: "Web D|";
+    }
+
+    17.5% {
+        content: "Web De|";
+    }
+
+    18% {
+        content: "Web Dev|";
+    }
+
+    18.5% {
+        content: "Web Deve|";
+    }
+
+    19% {
+        content: "Web Devel|";
+    }
+
+    19.5% {
+        content: "Web Develo|";
+    }
+
+    20% {
+        content: "Web Develop|";
+    }
+
+    20.5% {
+        content: "Web Develope|";
+    }
+
+    21% {
+        content: "Web Developer|";
+    }
+
+    23% {
+        content: "Web Developer|";
+    }
+
+    23.5% {
+        content: "Web Develope|";
+    }
+
+    24% {
+        content: "Web Develop|";
+    }
+
+    24.5% {
+        content: "Web Develo|";
+    }
+
+    25% {
+        content: "Web Devel|";
+    }
+
+    25.5% {
+        content: "Web Deve|";
+    }
+
+    26% {
+        content: "Web Dev|";
+    }
+
+    26.5% {
+        content: "Web De|";
+    }
+
+    27% {
+        content: "Web Des|";
+    }
+
+    27.5% {
+        content: "Web Desi|";
+    }
+
+    28% {
+        content: "Web Desig|";
+    }
+
+    28.5% {
+        content: "Web Design|";
+    }
+
+    29% {
+        content: "Web Designe|";
+    }
+
+    29.5% {
+        content: "Web Designer|";
+    }
+
+    31.5% {
+        content: "Web Designer|";
+    }
+
+    32% {
+        content: "Web Designe|";
+    }
+
+    32.5% {
+        content: "Web Design|";
+    }
+
+    33% {
+        content: "Web Desig|";
+    }
+
+    33.5% {
+        content: "Web Desi|";
+    }
+
+    34% {
+        content: "Web Des|";
+    }
+
+    34.5% {
+        content: "Web De|";
+    }
+
+    35% {
+        content: "Web D|";
+    }
+
+    35.5% {
+        content: "Web |";
+    }
+
+    36% {
+        content: "Web|";
+    }
+
+    36.5% {
+        content: "We|";
+    }
+
+    37% {
+        content: "W|";
+    }
+
+    37.5% {
+        content: "|";
+    }
+
+    38% {
+        content: "|";
+    }
+
+    38.5% {
+        content: "F|";
+    }
+
+    39% {
+        content: "Fr|";
+    }
+
+    39.5% {
+        content: "Fro|";
+    }
+
+    40% {
+        content: "Fron|";
+    }
+
+    40.5% {
+        content: "Front|";
+    }
+
+    41% {
+        content: "Fronte|";
+    }
+
+    41.5% {
+        content: "Fronten|";
+    }
+
+    42% {
+        content: "Frontend|";
+    }
+
+    42.5% {
+        content: "Frontend |";
+    }
+
+    43% {
+        content: "Frontend D|";
+    }
+
+    43.5% {
+        content: "Frontend De|";
+    }
+
+    44% {
+        content: "Frontend Dev|";
+    }
+
+    44.5% {
+        content: "Frontend Deve|";
+    }
+
+    45% {
+        content: "Frontend Devel|";
+    }
+
+    45.5% {
+        content: "Frontend Develo|";
+    }
+
+    46% {
+        content: "Frontend Develop|";
+    }
+
+    46.5% {
+        content: "Frontend Develope|";
+    }
+
+    47% {
+        content: "Frontend Developer|";
+    }
+
+    49% {
+        content: "Frontend Developer|";
+    }
+
+    49.5% {
+        content: "Frontend Develope|";
+    }
+
+    50% {
+        content: "Frontend Develop|";
+    }
+
+    50.5% {
+        content: "Frontend Develo|";
+    }
+
+    51% {
+        content: "Frontend Devel|";
+    }
+
+    51.5% {
+        content: "Frontend Deve|";
+    }
+
+    52% {
+        content: "Frontend Dev|";
+    }
+
+    52.5% {
+        content: "Frontend De|";
+    }
+
+    53% {
+        content: "Frontend D|";
+    }
+
+    53.5% {
+        content: "Frontend |";
+    }
+
+    54% {
+        content: "Frontend|";
+    }
+
+    54.5% {
+        content: "Fronten|";
+    }
+
+    55% {
+        content: "Fronte|";
+    }
+
+    55.5% {
+        content: "Fron|";
+    }
+
+    56% {
+        content: "Fro|";
+    }
+
+    56.5% {
+        content: "Fr|";
+    }
+
+    57% {
+        content: "F|";
+    }
+
+    57.5% {
+        content: "|";
+    }
+
+    58% {
+        content: "|";
+    }
+
+    58.5% {
+        content: "G|";
+    }
+
+    59% {
+        content: "Gr|";
+    }
+
+    59.5% {
+        content: "Gra|";
+    }
+
+    60% {
+        content: "Grap|";
+    }
+
+    60.5% {
+        content: "Graph|";
+    }
+
+    61% {
+        content: "Graphi|";
+    }
+
+    61.5% {
+        content: "Graphic|";
+    }
+
+    62% {
+        content: "Graphic |";
+    }
+
+    62.5% {
+        content: "Graphic D|";
+    }
+
+    63% {
+        content: "Graphic De|";
+    }
+
+    63.5% {
+        content: "Graphic Des|";
+    }
+
+    64% {
+        content: "Graphic Desi|";
+    }
+
+    64.5% {
+        content: "Graphic Desig|";
+    }
+
+    65% {
+        content: "Graphic Design|";
+    }
+
+    65.5% {
+        content: "Graphic Designe|";
+    }
+
+    66% {
+        content: "Graphic Designer|";
+    }
+
+    68% {
+        content: "Graphic Designer|";
+    }
+
+    68.5% {
+        content: "Graphic Designe|";
+    }
+
+    69% {
+        content: "Graphic Design|";
+    }
+
+    69.5% {
+        content: "Graphic Desig|";
+    }
+
+    70% {
+        content: "Graphic Desi|";
+    }
+
+    70.5% {
+        content: "Graphic Des|";
+    }
+
+    71% {
+        content: "Graphic De|";
+    }
+
+    71.5% {
+        content: "Graphic D|";
+    }
+
+    72% {
+        content: "Graphic |";
+    }
+
+    72.5% {
+        content: "Graphic|";
+    }
+
+    73% {
+        content: "Graphi|";
+    }
+
+    73.5% {
+        content: "Graph|";
+    }
+
+    74% {
+        content: "Grap|";
+    }
+
+    74.5% {
+        content: "Gra|";
+    }
+
+    75% {
+        content: "Gr|";
+    }
+
+    75.5% {
+        content: "G|";
+    }
+
+    76% {
+        content: "|";
+    }
+
+    78% {
+        content: "|";
+    }
+
+    80% {
+        content: "";
+    }
+
+    82% {
+        content: "|";
+    }
+
+    84% {
+        content: "";
+    }
+
+    86% {
+        content: "|";
+    }
+
+    88% {
+        content: "";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    92% {
+        content: "";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    96% {
+        content: "";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+.aboutImage img {
+    border-radius: 5px;
+}
+
+.about span {
+    color: #0078FF;
+    font-weight: bold;
+}
+
+.aboutParag h2 {
+    position: relative;
+}
+
+.aboutParag h2:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    left: 0%;
+    bottom: -20%;
+    background-color: #0078FF;
+}
+
+.servicesHeader p {
+    position: relative;
+}
+
+.servicesHeader p::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    left: 48%;
+    bottom: -50%;
+    background-color: #0078FF;
+}
+
+.servicesContent {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.icon i {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: black;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: solid 10px #0078FF;
+    border-radius: 50%;
+}
+
+.icon i:hover {
+    color: black;
+    background-color: #0078FF;
+    border: solid 10px #84BCFA;
+}
+
+.followServices {
+    background-image: url("../images/post-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer2 {
+    background-color: rgba(0, 119, 255, 0.6);
+}
+
+.iconServ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: 5px solid #0078FF;
+    border-radius: 50%;
+}
+
+.iconServ:hover {
+    border: 5px solid white;
+    background-color: #0078FF;
+}
+
+.portofolioHeader p {
+    position: relative;
+}
+
+.portofolioHeader p::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    left: 48%;
+    bottom: -50%;
+    background-color: #0078FF;
+}
+
+figcaption span {
+    color: #0078FF !important;
+    font-weight: bold;
+}
+
+.portoflioContent a:hover img {
+    transition: all 1s;
+    transform: scale(1.2, 1.2);
+}
+
+.clintWorks {
+    background-image: url("../images/overlay-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer3 {
+    background-color: rgba(0, 119, 255, 0.6);
+}
+
+.carousel-inner .active {
+    border-bottom: none;
+    width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    top: 100%;
+}
+
+.blogHeader p {
+    position: relative;
+}
+
+.blogHeader p::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    left: 48%;
+    bottom: -50%;
+    background-color: #0078FF;
+}
+
+.positionAncor {
+    position: relative;
+}
+
+.positionAncor::after {
+    position: absolute;
+    content: "Web Design";
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #0078FF;
+    color: white;
+    font-size: 15px;
+    top: -75%;
+    margin: auto;
+    transform: translateX(100%);
+}
+
+.imageinnerBlog {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.design {
+    border-bottom: solid 0.5px #a29f9f;
+}
+
+.blogContent .hover:hover {
+    color: #0078FF !important;
+    transition: all 1s;
+}
+
+.contact {
+    background-image: url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.layer4 {
+    background-color: rgba(0, 119, 255, 0.6);
+}
+
+.contact .container {
+    background-color: #F5F5F5;
+}
+
+.inputs input {
+    padding: 10px;
+    border: 2px solid rgb(74, 72, 72);
+    border-radius: 5px;
+}
+
+.input-group textarea {
+    border-color: black !important;
+    border-radius: 5px;
+}
+
+.ptnend {
+    padding: 10px 35px;
+    color: white;
+    background-color: #0078FF;
+    border: none;
+    border-radius: 30px;
+}
+
+.ptnend:hover {
+    background-color: #3372BB;
+    box-shadow: #3372BB 2px 2px;
+    transition: all 0.5s;
+}
+
+.positionleft {
+    position: relative;
+}
+
+.positionleft::after {
+    position: absolute;
+    content: "";
+    top: 110%;
+    left: 0;
+    width: 25%;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+.positionRight {
+    position: relative;
+}
+
+.positionRight::after {
+    position: absolute;
+    content: "";
+    top: 110%;
+    left: 0;
+    width: 30%;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+.iconend p {
+    padding-left: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.iconRowEnd i {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: solid 5px #0078FF;
+    border-radius: 50%;
+}
+
+.iconRowEnd i:hover {
+    background-color: #0078FF;
+    border: solid 5px #84BCFA;
+}
